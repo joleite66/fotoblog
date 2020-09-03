@@ -1,0 +1,2 @@
+# fotoblog
+Blog de fotos
