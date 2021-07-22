@@ -39,7 +39,7 @@ body{
 
 /* define a velocidade da transição */
 .flipper {  	
-  transition: 0.6s;  	
+  transition: 2s;  	
   transform-style: preserve-3d;    	
   position: relative;  
 }
@@ -60,5 +60,4 @@ body{
 
 .menu{
     text-align: center;
-
 }
