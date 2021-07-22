@@ -26,7 +26,7 @@ body{
 
 
   /* O container geral define a perspectiva */  
-.flip-container { perspective: 1000; }  	
+.flip-container { perspective: 100; }  	
 
 /* vira os containers frente e verso quando o mouse passa em cima */
 .flip-container:hover .flipper, .flip-container.hover .flipper {  		
