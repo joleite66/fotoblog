@@ -57,3 +57,8 @@ body{
 
 /* verso inicialmente escondido */
 .back { transform: rotateY(180deg); }
+
+.menu{
+    text-align: center;
+
+}
