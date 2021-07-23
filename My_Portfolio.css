@@ -2,7 +2,7 @@
     color: rgb(17, 0, 255);
 }
 
-#title {
+.title {
     text-align: center;
     text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 00 0.2em #87F;
     border: 10px solid burlywood;
@@ -10,18 +10,21 @@
 }
 
 body{
-    width:100%;
-    height:100%;
+    width:95%;
+    height:80%;
     color:black;
     font-weight:bold;
-    animation: myanimation 10s infinite;}
+    animation: myanimation 10s infinite;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
 
 @keyframes myanimation {
-    0% {background-color: red;}
-    25%{background-color:yellow;}
-    50%{background-color:green;}
-    75%{background-color:brown;}
-    100% {background-color: red;}
+    0% {background-color: rgb(213, 247, 159);}
+    25%{background-color:rgb(138, 138, 90);}
+    50%{background-color:rgb(73, 218, 223);}
+    75%{background-color:rgb(212, 120, 120);}
+    100% {background-color: rgb(139, 243, 139);}
   }
 
 
@@ -59,5 +62,37 @@ body{
 .back { transform: rotateY(180deg); }
 
 .menu{
-    text-align: center;
+  text-align: center;
+  justify-content: center;
+  text-size-adjust: edge;
+}
+
+
+#bazuca{
+    border: 7px solid cadetblue; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+
+    border: 6px solid darkgray;
+
+    border: 6px solid red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
